@@ -2,18 +2,21 @@
   "name": "dmg-front",
   "version": "0.1.0",
   "private": true,
+  "author": "Matheus Moraes <matheusfaria.moraes@gmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "bootstrap": "^4.3",
-    "bootstrap-vue": "^2.0.0-rc.19",
+    "bootstrap-vue": "^2.0.4",
     "core-js": "^2.6.5",
+    "lodash": "^4.17.15",
     "vue": "^2.6.10",
-    "vue-router": "^3.0.6"
+    "vue-router": "^3.0.6",
+    "vuejs-logger": "^1.5.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.6.0",
