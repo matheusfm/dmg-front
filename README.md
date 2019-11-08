@@ -1,4 +1,4 @@
-# dmg-front
+# dmg-front [![Netlify Status](https://api.netlify.com/api/v1/badges/7c453ded-3eea-4ba5-9a71-50a5403b68ee/deploy-status)](https://app.netlify.com/sites/dmg/deploys)
 
 ## Project setup
 ```
