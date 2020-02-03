@@ -15,6 +15,23 @@ const axios = Axios.create({
   headers: { 'Accept': 'application/json' },
 })
 
+axios.interceptors.response.use(
+  function (response) {
+    return response
+  },
+  function (error) {
+    if (error.response.status === 401) {
+      router.push('/login')
+    }
+    return Promise.reject(error)
+  }
+)
+
+axios.interceptors.request.use(function (config) {
+  config.headers = { 'Authorization': 'Bearer ' + localStorage.getItem('bearerToken') }
+  return config
+})
+
 Vue.prototype.$http = axios
 
 new Vue({

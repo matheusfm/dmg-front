@@ -23,8 +23,6 @@ export default {
     return {
       isBusy: false,
       fields: [
-        { key: "id", sortable: false, label: "ID" },
-        { key: "code", sortable: false, label: "Código" },
         { key: "name", sortable: false, label: "Nome" },
         { key: "address", sortable: false, label: "Endereço" },
         { key: "city", sortable: false, label: "Cidade" },
